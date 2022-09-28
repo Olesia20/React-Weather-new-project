@@ -38,6 +38,25 @@ function App() {
         </div>
         <hr />
       </div>
+      <div className="newForm">
+        <form className="formSearch">
+          <input className="cityType" type="search" placeholder="Type a city" />
+          <input className="citySearch" type="submit" value="Search" />
+        </form>
+      </div>
+      <div className="weatherDaily">
+        <div className="row">
+          <div className="col-6">
+            <ul>
+              <li>monday</li>
+              <li>monday</li>
+              <li>monday</li>
+              <li>monday</li>
+              <li>monday</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

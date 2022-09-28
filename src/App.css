@@ -1,5 +1,5 @@
 .container {
-  margin-top: 50px;
+  margin-top: 40px;
   border: 30px solid #eacd9b;
   background: #eacd9b;
   box-shadow: 5px 5px 5px 5px rgb(167, 163, 163);
@@ -10,7 +10,7 @@
   border: 20px solid #d83627;
   border-radius: 50px;
   max-width: 600px;
-  margin: 70px auto;
+  margin: 20px 20px auto;
   display: block;
   background: #eacd9b;
   color: #307b7e;
@@ -25,4 +25,32 @@ h1 {
 li {
   font-size: 30px;
   margin-left: 20px;
+}
+.formSearch {
+  text-align: center;
+}
+.newForm {
+  border: 20px solid #d83627;
+  border-radius: 25px;
+  max-width: 600px;
+  margin: 10px auto;
+}
+.cityType {
+  border: 5px solid #eacd9b;
+  border-radius: 20px;
+  background: #eacd9b;
+  color: #eacd9b;
+  padding: 10px 60px;
+}
+.citySearch {
+  border: 5px solid #d83627;
+  border-radius: 20px;
+  background: #d83627;
+  color: #eacd9b;
+}
+.weatherDaily {
+  border: 20px solid #307b7e;
+  border-radius: 50px;
+  margin: 10px auto;
+  max-width: 600px;
 }
