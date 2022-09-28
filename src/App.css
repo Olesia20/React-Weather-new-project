@@ -1,1 +1,28 @@
-
+.container {
+  margin-top: 50px;
+  border: 30px solid #eacd9b;
+  background: #eacd9b;
+  box-shadow: 5px 5px 5px 5px rgb(167, 163, 163);
+  border-radius: 50px;
+}
+.weather {
+  font-family: "Smokum", cursive;
+  border: 20px solid #d83627;
+  border-radius: 50px;
+  max-width: 600px;
+  margin: 70px auto;
+  display: block;
+  background: #eacd9b;
+  color: #307b7e;
+  box-shadow: 5px 5px 5px 5px rgb(105, 101, 101);
+}
+h1 {
+  margin-left: 30px;
+  font-size: 40px;
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+li {
+  font-size: 30px;
+  margin-left: 20px;
+}
