@@ -27,17 +27,25 @@ export default function App() {
           </div>
         </div>
         <div className="row">
-          <div className="col-6">
-            <h1>Kyiv</h1>
+          <div className="col-8">
+            <h1 className="city">Kyiv</h1>
           </div>
-          <div className="col-6">
-            <h1>30°C</h1>
+          <div className="col-4">
+            <h1>
+              <strong className="temperature">30</strong>
+              <span className="unit">°C</span>
+            </h1>
           </div>
         </div>
       </div>
       <div className="newForm">
         <form className="formSearch">
-          <input className="cityType" type="search" placeholder="Type a city" />
+          <input
+            className="cityType"
+            type="search"
+            placeholder="Type a city"
+            autoFocus="on"
+          />
           <input className="citySearch" type="submit" value="Search" />
         </form>
       </div>
