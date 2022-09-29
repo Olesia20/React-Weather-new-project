@@ -1,6 +1,6 @@
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="container">
       <div className="weather">
@@ -26,17 +26,14 @@ function App() {
             </ul>
           </div>
         </div>
-        <hr />
         <div className="row">
           <div className="col-6">
             <h1>Kyiv</h1>
           </div>
-
           <div className="col-6">
             <h1>30°C</h1>
           </div>
         </div>
-        <hr />
       </div>
       <div className="newForm">
         <form className="formSearch">
@@ -57,8 +54,16 @@ function App() {
           </div>
         </div>
       </div>
+      <footer>
+        This project was coded by Olesia Kononova and is {""}
+        <a
+          href="https://github.com/Olesia20/React-Weather-new-project"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced o GitHub
+        </a>
+      </footer>
     </div>
   );
 }
-
-export default App;

@@ -15,6 +15,7 @@
   background: #eacd9b;
   color: #307b7e;
   box-shadow: 5px 5px 5px 5px rgb(105, 101, 101);
+  padding: 15px;
 }
 h1 {
   width: 700px;
@@ -54,4 +55,7 @@ li {
   border-radius: 50px;
   margin: 10px auto;
   max-width: 600px;
+}
+hr {
+  color: #d83627;
 }
