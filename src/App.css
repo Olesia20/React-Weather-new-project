@@ -43,7 +43,6 @@ li {
   border: 5px solid #eacd9b;
   border-radius: 5px;
   background: #eacd9b;
-  color: #eacd9b;
   padding: 10px 60px;
   font-size: 20px;
 }
@@ -71,4 +70,7 @@ li {
 }
 footer {
   text-align: center;
+}
+img {
+  margin-left: -30px;
 }
