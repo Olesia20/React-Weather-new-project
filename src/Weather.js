@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Watch } from "react-loader-spinner";
 import axios from "axios";
 import "./App.css";
 import WeatherDaily from "./WeatherDaily";
@@ -55,6 +56,17 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "(Loading...)";
+    return (
+      <Watch
+        height="60"
+        width="80"
+        radius="48"
+        color="#4fa94d"
+        ariaLabel="watch-loading"
+        wrapperStyle={{}}
+        wrapperClassName=""
+        visible={true}
+      />
+    );
   }
 }
